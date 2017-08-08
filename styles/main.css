@@ -1,0 +1,130 @@
+header  {
+  background-color: #1d45d6;
+  overflow: hidden;
+}
+
+container {
+  margin: auto;
+}
+
+section   {
+  position: relative;
+  float: left;
+  width: 50%;
+}
+
+article  {
+  background-color: #1d45d6;
+  text-align: left;
+}
+
+aside     {
+  position: relative;
+  float: right;
+  width: 50%;
+}
+
+ul        {
+
+}
+
+footer    {
+  clear: both;
+  background-color: #1d45d6;
+}
+
+h1        {
+  font-family: 'Asap Condensed', sans-serif;
+  font-size: 26px;
+  font-weight: normal;
+  text-align: center;
+  color: white;
+}
+
+h6        {
+  display: inline-block;
+  font-family: 'Asap Condensed', sans-serif;
+  font-weight: normal;
+  font-size: 22px;
+  color: white;
+  padding: 15px;
+}
+
+p         {
+  font-family: 'Asap Condensed', sans-serif;
+  font-weight: normal;
+  font-size: 18px;
+  color: #1d45d6;
+  text-align: right;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.nav    {
+  float: right;
+  position: absolute;
+  z-index: 5;
+  top: 0;
+  right: 0;
+}
+
+.intro  {
+  background-color: #ca5172;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.intro p  {
+  color: white;
+}
+
+.quotes   {
+  background-color: #c4e0e2;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.contact  {
+  background-color: #dfeff0;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+.box      {
+  width: 400px;
+  height: 400px;
+  padding: 10px;
+  background-color: lightgray;
+  font-family: sans-serif;
+  font-size: 24px;
+  text-align: center;
+  color: white;
+}
+
+.intro-hidden {
+  display: none;
+}
+
+@media (max-width: 440px) {
+  body  {
+    font-size: 2rem;
+  }
+
+  section   {
+    position: relative;
+    width: 100%;
+  }
+
+  aside     {
+    position: relative;
+    width: 100%;
+  }
+
+  .intro {
+    display: none;
+  }
+
+  .intro-hidden {
+    display: block;
+  }
+}

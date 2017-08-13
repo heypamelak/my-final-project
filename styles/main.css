@@ -10,22 +10,23 @@ container {
 section   {
   position: relative;
   float: left;
-  width: 50%;
+  width: 40%;
 }
 
 article  {
   background-color: #1d45d6;
-  text-align: left;
+  text-align: center;
 }
 
 aside     {
   position: relative;
   float: right;
-  width: 50%;
+  width: 60%;
+  background-color: yellow;
 }
 
 ul        {
-
+  list-style: none;
 }
 
 footer    {
@@ -34,31 +35,43 @@ footer    {
 }
 
 h1        {
-  font-family: 'Asap Condensed', sans-serif;
-  font-size: 26px;
-  font-weight: normal;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 68px;
+  font-weight: 100;
   text-align: center;
   color: white;
+}
+
+h2        {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 22px;
+  font-weight: 100;
+  text-align: center;
+  color: white;
+  padding: 20px 0px 20px 0px;
 }
 
 h6        {
   display: inline-block;
   margin: 0;
-  font-family: 'Asap Condensed', sans-serif;
-  font-weight: normal;
-  font-size: 16px;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 200;
+  font-size: 20px;
   color: white;
-  padding: 25px;
+  margin-right: 20px;
+  padding: 100px 0px 0px 10px;
 }
 
 p         {
-  font-family: 'Asap Condensed', sans-serif;
-  font-weight: normal;
+  margin: auto;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 200;
   font-size: 18px;
+  line-height: 28px;
   color: #1d45d6;
-  text-align: right;
-  margin-left: 60px;
-  margin-right: 60px;
+  text-align: center;
+  padding-left: 80px;
+  padding-right: 80px;
 }
 
 .nav    {
@@ -95,13 +108,12 @@ p         {
 .contact  {
   background-color: #dfeff0;
   padding-top: 60px;
-  padding-bottom: 40px;
+  padding-bottom: 60px;
 }
 
 .box      {
-  width: 400px;
-  height: 400px;
-  padding: 10px;
+  width: 750px;
+  height: 750px;
   background-color: lightgray;
   font-family: sans-serif;
   font-size: 24px;
@@ -130,6 +142,7 @@ p         {
   aside     {
     position: relative;
     width: 100%;
+    background-color: yellow;
   }
 
   .desktop  {

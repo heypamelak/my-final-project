@@ -43,11 +43,12 @@ h1        {
 
 h6        {
   display: inline-block;
+  margin: 0;
   font-family: 'Asap Condensed', sans-serif;
   font-weight: normal;
-  font-size: 22px;
+  font-size: 16px;
   color: white;
-  padding: 15px;
+  padding: 25px;
 }
 
 p         {
@@ -65,7 +66,14 @@ p         {
   position: absolute;
   z-index: 5;
   top: 0;
-  right: 0;
+  right: 10px;
+}
+
+.social {
+  float: right;
+  position: absolute;
+  bottom: 0;
+  right: 10px;
 }
 
 .intro  {
@@ -101,7 +109,11 @@ p         {
   color: white;
 }
 
-.intro-hidden {
+.desktop  {
+  display: block;
+}
+
+.mobile {
   display: none;
 }
 
@@ -120,11 +132,10 @@ p         {
     width: 100%;
   }
 
-  .intro {
+  .desktop  {
     display: none;
   }
 
-  .intro-hidden {
+  .mobile {
     display: block;
   }
-}

@@ -9,8 +9,18 @@ header    {
   margin: auto;
 }
 
-container {
+.container-home  {
   display: flex;
+  flex-direction: row;
+}
+
+.container-work {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding-left: 20%;
+  padding-right: 20%;
 }
 
 div   {
@@ -31,7 +41,7 @@ p         {
 
 .gradient-home   {
   background-color: midnightblue;
-
+  min-height: 100vh;
   /* will be "on top", if browser supports it */
   background-image: linear-gradient(midnightblue, crimson);
 
@@ -40,8 +50,8 @@ p         {
   background: linear-gradient(midnightblue, crimson);
 }
 
-#image-scale {
-	width: 100%;  height: auto;
+#image50 {
+	width: 50%;  height: auto;
 }
 
 .column   {
@@ -57,6 +67,16 @@ p         {
 
 .social {
   float: center;
+}
+
+.box  {
+  width: 150px;
+  height: 150px;
+  margin: 20px;
+  border-radius: 8px;
+  border-color: white;
+  border-width: 0.5px;
+  border-style: solid;
 }
 
 

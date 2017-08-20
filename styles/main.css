@@ -6,7 +6,19 @@ body    {
 }
 
 header    {
-  margin: auto;
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+
+}
+
+a:link, a:visited  {
+  color: white;
+  text-decoration: none;
+}
+
+img a:hover   {
+  opacity: 0.8;
 }
 
 .container-home  {
@@ -21,6 +33,10 @@ header    {
   flex-wrap: wrap;
   padding-left: 20%;
   padding-right: 20%;
+}
+
+.container-contact  {
+  align-items: center;
 }
 
 div   {
@@ -50,8 +66,10 @@ p         {
   background: linear-gradient(midnightblue, crimson);
 }
 
-#image50 {
-	width: 50%;  height: auto;
+.image-scale {
+	/*width: 50%;*/
+  height: auto;
+  max-width: 100px;
 }
 
 .column   {
@@ -73,6 +91,12 @@ p         {
   width: 150px;
   height: 150px;
   margin: 20px;
+}
+
+.form-box {
+  width: 450px;
+  height: 150px;
+  margin: auto;
   border-radius: 8px;
   border-color: white;
   border-width: 0.5px;

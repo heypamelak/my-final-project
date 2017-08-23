@@ -39,6 +39,12 @@ img a:hover   {
   align-items: center;
 }
 
+.container-thankyou  {
+  align-items: center;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
 div   {
   text-align: center;
   padding: 20px;
@@ -48,11 +54,21 @@ footer    {
   width: 100%;
 }
 
+h1        {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 32px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
 p         {
   font-family: 'Work Sans', sans-serif;
   font-weight: 200;
   font-size: 18px;
   line-height: 28px;
+  text-align: center;
 }
 
 .gradient-home   {
@@ -67,7 +83,6 @@ p         {
 }
 
 .image-scale {
-	/*width: 50%;*/
   height: auto;
   max-width: 100px;
 }
@@ -87,13 +102,31 @@ p         {
   float: center;
 }
 
-.box  {
-  width: 150px;
-  height: 150px;
-  margin: 20px;
+.hover figure {
+    background: #midnightblue;
 }
 
-.form-box {
+.hover figure img {
+    opacity: 1;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.hover figure:hover img {
+    opacity: .5;
+}
+
+.form-name  {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.form-email {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.message-box {
   width: 450px;
   height: 150px;
   margin: auto;
@@ -101,6 +134,19 @@ p         {
   border-color: white;
   border-width: 0.5px;
   border-style: solid;
+}
+
+#send-button  {
+  width: 120px;
+  height: 40px;
+  border: 1px;
+  border-radius: 3px;
+  background-color: white;
+  border-color: white;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: midnightblue;
 }
 
 

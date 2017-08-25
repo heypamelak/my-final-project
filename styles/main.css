@@ -109,17 +109,25 @@ p         {
   float: center;
 }
 
-.form-name  {
+#form-name    {
   padding-top: 5px;
   padding-bottom: 5px;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: midnightblue;
 }
 
-.form-email {
+#form-email   {
   padding-top: 5px;
   padding-bottom: 5px;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: midnightblue;
 }
 
-.message-box {
+#form-message {
   width: 450px;
   height: 150px;
   margin: auto;
@@ -127,22 +135,13 @@ p         {
   border-color: white;
   border-width: 0.5px;
   border-style: solid;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: midnightblue;
 }
 
-#form-name    {
-  border-width: 0;
-  border-style: none;
-}
-
-#form-email   {
-
-}
-
-#form-message {
-
-}
-
-#send-button  {
+#form-button  {
   width: 120px;
   height: 40px;
   border: 1px;

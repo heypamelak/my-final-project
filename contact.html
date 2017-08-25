@@ -8,40 +8,35 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Work+Sans:100,200">
     <link rel="stylesheet" href="styles/main.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="scripts/form.js"></script>
+
   </head>
 
   <body class='gradient-home'>
-    <header>
-      <a href="index.html"><img src="images/p-logo-white.png" alt="P Design Lab" class="image-scale"></a>
-    </header>
+    <div id="wrapper">
+      <header>
+        <a href="index.html"><img src="images/p-logo-white.png" alt="P Design Lab" class="image-scale"></a>
+      </header>
 
-    <container class='container-contact'>
-      <h1>Interested in working together?</h1>
+      <container class='container-contact'>
+        <h1>Interested in working together?</h1>
 
-      <div class='form-name'>
-        <p>Your Name</p>
-      </div>
+        <form action="https://www.enformed.io/uaic04k1" >
+          <input name='name' type='text' placeholder='Your Name' id='form-name'></input>
+          <input name='email' type="text" placeholder="Your Email" id="form-email"></input>
+          <input name='message' type="text" placeholder="What can I help you with?" id="form-message"></input>
+          <button id="form-button">Send</button>
+        </form>
 
-      <div class='form-email'>
-        <p>Your Email</p>
-      </div>
+      </container>
 
-      <div class='message-box'>
-        <p>How can I help you?</p>
-      </div>
-
-      <div class='button'>
-        <button type="submit" id='send-button'>Send</button>
-      </div>
-    </container>
-
-    <footer>
-      <div class='social'>
-        <a href="https://www.instagram.com/heypamelak/" target="_blank"><img src="images/instagram.png" alt="Instagram"></a>
-        <a href="https://linkedin.com/in/pamelakrikorian" target="_blank"><img src="images/linkedin.png" alt="LinkedIn"></a>
-      </div>
-    </footer>
-
+      <footer>
+        <div class='social'>
+          <a href="https://www.instagram.com/heypamelak/" target="_blank"><img src="images/instagram.png" alt="Instagram"></a>
+          <a href="https://linkedin.com/in/pamelakrikorian" target="_blank"><img src="images/linkedin.png" alt="LinkedIn"></a>
+        </div>
+      </footer>
+    </div>
   </body>
 </html>

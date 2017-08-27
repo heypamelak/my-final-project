@@ -36,15 +36,21 @@ a:link, a:visited  {
   padding-right: 10%;
 }
 
+.container-worknav  {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
+}
+
 .container-contact  {
   padding-left: 20%;
   padding-right: 20%;
 }
 
 .container-thankyou  {
+  max-width: 550px;
   align-items: center;
-  margin-left: 20%;
-  margin-right: 20%;
 }
 
 div   {
@@ -62,6 +68,16 @@ h1        {
   line-height: 32px;
   text-align: center;
   padding-bottom: 10px;
+}
+
+h6        {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 200;
+  font-size: 18px;
+  text-align: center;
+  color: white;
 }
 
 p         {
@@ -83,9 +99,14 @@ p         {
   background: linear-gradient(midnightblue, crimson);
 }
 
-.image-scale {
+.image-scale-logo {
   height: auto;
   max-width: 100px;
+}
+
+.image-scale-thumbs {
+  height: auto;
+  max-width: 60px;
 }
 
 .column   {
@@ -105,58 +126,69 @@ p         {
   padding: 20px;
 }
 
+.work-thumbs-nav  {
+  padding: 20px;
+}
+
 .social {
   float: center;
 }
 
 #form-name    {
+  display: block;
+  margin-bottom: 10px;
   padding-top: 5px;
   padding-bottom: 5px;
   font-family: 'Work Sans', sans-serif;
   font-size: 16px;
   font-weight: 700;
-  color: midnightblue;
+  color: white;
   text-align: center;
   width: 450px;
   height: 50px;
-  border-width: 0.5px;
+  border-width: 1px;
   border-top: 0px;
   border-left: 0px;
   border-right: 0px;
-  background-color: none;
+  background-color: rgba(0,0,0,0);
 }
 
 #form-email   {
+  display: block;
+  margin-bottom: 10px;
   padding-top: 5px;
   padding-bottom: 5px;
   font-family: 'Work Sans', sans-serif;
   font-size: 16px;
   font-weight: 700;
-  color: midnightblue;
+  color: white;
   text-align: center;
   width: 450px;
   height: 50px;
-  border-width: 0.5px;
+  border-width: 1px;
   border-top: 0px;
   border-left: 0px;
   border-right: 0px;
-  background-color: none;
+  background-color: rgba(0,0,0,0);
 }
 
 #form-message {
+  display: block;
+  margin-bottom: 20px;
+  padding: 10px;
   width: 450px;
   height: 150px;
-  margin: auto;
   border-radius: 2px;
   border-color: white;
-  border-width: 0.5px;
+  border-width: 1px;
   border-style: solid;
-  background-color: none;
+  background-color: rgba(0,0,0,0);
   font-family: 'Work Sans', sans-serif;
   font-size: 16px;
   font-weight: 700;
-  color: midnightblue;
+  color: white;
   text-align: center;
+
 }
 
 #form-button  {
@@ -164,9 +196,9 @@ p         {
   height: 40px;
   border-radius: 2px;
   border-color: white;
-  border-width: 0.5px;
+  border-width: 1px;
   border-style: solid;
-  background-color: none;
+  background-color: rgba(0,0,0,0);
   font-family: 'Work Sans', sans-serif;
   font-size: 16px;
   font-weight: 700;

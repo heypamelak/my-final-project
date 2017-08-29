@@ -9,7 +9,33 @@ header    {
   text-align: center;
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
 
+h1        {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 32px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+h6        {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 200;
+  font-size: 18px;
+  text-align: center;
+  color: white;
+}
+
+p         {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 200;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
 }
 
 a:link, a:visited  {
@@ -49,8 +75,9 @@ a:link, a:visited  {
 }
 
 .container-thankyou  {
-  max-width: 550px;
-  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 div   {
@@ -59,33 +86,6 @@ div   {
 
 footer    {
   width: 100%;
-}
-
-h1        {
-  font-family: 'Work Sans', sans-serif;
-  font-weight: 400;
-  font-size: 26px;
-  line-height: 32px;
-  text-align: center;
-  padding-bottom: 10px;
-}
-
-h6        {
-  margin-top: 30px;
-  margin-bottom: 10px;
-  font-family: 'Work Sans', sans-serif;
-  font-weight: 200;
-  font-size: 18px;
-  text-align: center;
-  color: white;
-}
-
-p         {
-  font-family: 'Work Sans', sans-serif;
-  font-weight: 200;
-  font-size: 18px;
-  line-height: 28px;
-  text-align: center;
 }
 
 .gradient-home   {
@@ -122,6 +122,12 @@ p         {
   padding: 20px;
 }
 
+.center-column    {
+  width: 60%;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
 .work-thumbs    {
   padding: 20px;
 }
@@ -132,6 +138,8 @@ p         {
 
 .social {
   float: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 #form-name    {
@@ -177,7 +185,7 @@ p         {
   margin-bottom: 20px;
   padding: 10px;
   width: 450px;
-  height: 150px;
+  height: 100px;
   border-radius: 2px;
   border-color: white;
   border-width: 1px;
@@ -202,6 +210,10 @@ p         {
   font-family: 'Work Sans', sans-serif;
   font-size: 16px;
   font-weight: 700;
+  color: white;
+}
+
+input::placeholder {
   color: white;
 }
 

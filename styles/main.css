@@ -99,6 +99,11 @@ footer    {
   background: linear-gradient(midnightblue, crimson);
 }
 
+.image-scale-logo-hero  {
+  height: auto;
+  max-width: 200px;
+}
+
 .image-scale-logo {
   height: auto;
   max-width: 100px;
@@ -122,6 +127,21 @@ footer    {
   padding: 20px;
 }
 
+.row  {
+  width: 80%;
+  border-bottom-width: thin;
+  border-bottom-color: white;
+  border-bottom-style: solid;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.row-norule {
+  width: 80%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
 .center-column    {
   width: 60%;
   padding-left: 20%;
@@ -138,8 +158,8 @@ footer    {
 
 .social {
   float: center;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 #form-name    {
@@ -217,13 +237,20 @@ input::placeholder {
   color: white;
 }
 
+.container-home-mobile  {
+  display: none;
+}
 
-@media (max-width: 440px) {
+
+@media (max-width: 375px) {
   body  {
     font-size: 2rem;
   }
 
-  section   {
-    position: relative;
-    width: 100%;
+.container-home   {
+    display: none;
   }
+
+.container-home-mobile   {
+    display: block;
+}

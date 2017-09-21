@@ -184,6 +184,9 @@ footer    {
 }
 
 .work-thumbs    {
+  border-radius: 16px;
+  transition: background-color 0.5s ease;
+  background-color: midnightblue;
   padding: 20px;
 }
 
